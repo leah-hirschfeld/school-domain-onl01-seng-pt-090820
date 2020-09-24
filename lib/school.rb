@@ -7,9 +7,9 @@ class School
     @roster = {}
   end
   
-  def add_student(student_name, studnet_grade)
-  roster [:grade] = []
-  roster [:grade] << grade
+  def add_student(student_name, student_grade)
+  roster [:student_grade] = []
+  roster [:student_grade] << student_grade
   roster
   end
 

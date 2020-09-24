@@ -23,7 +23,8 @@ class School
     sorted_hash = @roster.sort
     @roster.each do |grade, students|
       sorted_hash[grade] = students.sort
-    end  
+    end 
+    sorted_hash
   end
 
 end

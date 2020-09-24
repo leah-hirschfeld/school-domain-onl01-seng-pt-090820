@@ -2,7 +2,7 @@ class School
   attr_accessor 
   attr_reader :name
   
-ROSTER == {}
+ROSTER = {}
 
   def initialize(name)
     @name = name

@@ -12,7 +12,7 @@ ROSTER = {}
   def add_student(name, grade)
   ROSTER [:grade] = []
   ROSTER [:grade] << grade
-  ROSTER 
+  ROSTER
   end
 
 end

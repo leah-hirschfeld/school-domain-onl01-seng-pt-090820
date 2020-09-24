@@ -14,5 +14,9 @@ class School
       @roster[grade] = [student_name]
     end
   end
+  
+  def grade(grade_level)
+    @roster[grade][0]
+  end
 
 end

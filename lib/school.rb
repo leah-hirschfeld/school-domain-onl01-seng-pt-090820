@@ -10,7 +10,7 @@ ROSTER = {}
   end
   
   def add_student(name, age)
-  ROSTER 
+  ROSTER[:name] = age
   end
 
 end

@@ -9,8 +9,10 @@ ROSTER = {}
     ROSTER
   end
   
-  def add_student(name, age)
-  ROSTER[:name] = age
+  def add_student(name, grade)
+  ROSTER[:grade] = []
+  ROSTER[:grade] << age
+  ROSTER
   end
 
 end

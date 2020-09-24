@@ -4,7 +4,7 @@ ROSTER = {}
 
   def initialize(name)
     @name = name
-    puts ROSTER
+    ROSTER
   end
   
 end

@@ -1,4 +1,6 @@
 class School
+  attr_accessor 
+  attr_reader :name
   
 ROSTER = {}
 
@@ -7,4 +9,8 @@ ROSTER = {}
     ROSTER
   end
   
+  def add_student(name, age)
+  ROSTER 
+  end
+
 end
